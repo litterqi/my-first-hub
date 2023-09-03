@@ -1,0 +1,19 @@
+力扣中使用cmp函数必须要在定义前加上static
+力扣中定义链表节点必须使用ListNode* node=new ListNode();一般力扣会提供ListNode()函数;尽量在定义ListNode*变量时就给其赋值
+在非定义部分不要写p=q(p,q是ListNode*),可以写p=q->next
+
+
+C/C++的除法采用向零取整，而不是上取整或下取整。向零取整即向0方向取最接近精确值的整数，换言之就是舍去小数部分，因此又称截断取整。对负数取模问题，应先求出二者的商，再使用公式【余数=被除数-商×除数】得出结果
+
+进行可能发生溢出的表达式计算时，需先将运算式中的变量类型强制转换为不会溢出的变量类型
+
+
+unordered_map<TreeNode*,TreeNode*> p 以及unordered_map<TreeNode*,int> q 类型不要写 if(p(q).find(x))
+unordered_map<TreeNode*,TreeNode*> p也不要写if(p[x])
+unordered_map<TreeNode*,int> q可以写if(q[x])
+
+
+%运算优先级比！判断低，要加括号
+
+
+处理读到文件末尾的输入时，可以使用while(cin>>x),x是输入的变量
