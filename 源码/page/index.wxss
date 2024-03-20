@@ -1,0 +1,6 @@
+.allbg{position:absolute; left:0px;top:0px; width:100%; height:100%;z-index:-1;}
+.btnarea{position:absolute;right:0px;bottom:60rpx;}
+.btnarea .btnbox{width:280rpx;height:80rpx;color:#fff;font-size:36rpx;margin-bottom:15rpx;line-height:80rpx;background:#757373;
+padding-left:20rpx;border:1px solide #eee;box-shadow: 3px 1px 5px #eee;}
+.gt{ width: 12px;  height: 12px; float:right;margin-right:20rpx; margin-top:40rpx;border-left: 1px solid #fff;  border-bottom: 1px solid #fff;  
+-webkit-transform: translate(0,-50%) rotate(-135deg);  transform: translate(0,-50%) rotate(-135deg);  }

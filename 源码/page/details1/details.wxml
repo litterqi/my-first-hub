@@ -1,0 +1,17 @@
+<view class="main">
+   <view class="catbox">
+        <image src="/image/s71.jpg" class="catthumb" mode="aspectFill"></image>
+        
+        <view class="cattitle">亲子写真</view>
+   </view>
+   
+   <view class="catinfo">
+		<image src="{{goods.image}}" class="catinfo-thumb" mode="aspectFill"></image>
+
+		<image src="{{goods.image2}}" class="catinfo-thumb" mode="aspectFill"></image>
+
+		<image src="{{goods.image3}}" class="catinfo-thumb" mode="aspectFill"></image>
+		
+		<image src="{{goods.image4}}" class="catinfo-thumb" mode="aspectFill"></image>
+   </view>
+</view>

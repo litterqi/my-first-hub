@@ -1,0 +1,9 @@
+<view class="main">
+    <image src="/image/bg.jpg" mode="aspectFill" class="allbg"></image>
+	<view class="btnarea">
+		<navigator url="list/list" class="btnbox" open-type="reLaunch">婚纱摄影<view class="gt"></view></navigator>
+		<navigator url="list/list" class="btnbox" open-type="reLaunch">亲子写真<view class="gt"></view></navigator>
+		<navigator url="list/list" class="btnbox" open-type="reLaunch">个人写真<view class="gt"></view></navigator>
+		<navigator url="list/list" class="btnbox" open-type="reLaunch">全家福照<view class="gt"></view></navigator>
+	</view>
+</view>

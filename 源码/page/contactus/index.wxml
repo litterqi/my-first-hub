@@ -1,0 +1,20 @@
+<view class="main">
+
+<view class="banner">
+        <image src="/image/banner2.jpg" mode="aspectFill"></image>
+    </view>
+
+<view class="mcname">蓝子0410网络科技</view>
+<view class="mcinfo" bindtap="teltoUs"><text class="mctlt">联系电话：</text><text class="mcval">186-6436-9878（点击拨号）</text></view>
+<view class="mcinfo" open-type="contact"><text class="mctlt">联系微信：</text><text class="mcval">蓝子0410网络科技</text></view>
+<view class="mcinfo" open-type="contact"><text class="mctlt">淘宝店铺：</text><text class="mcval">蓝子0410网络科技</text></view>
+<view class="mcinfo"><text class="mctlt">联系邮箱：</text><text class="mcval">yujian365@yeah.net</text></view>
+<view class="mcinfo" bindtap="click">
+<text class="mctlt">联系地址：</text><text class="mcval">广东省广州市越秀区S2芳村(点击导航）</text></view>
+
+</view>
+
+<view class="goods-box">
+
+ <button class="goods-operation" open-type="contact">在线客服</button>
+</view>

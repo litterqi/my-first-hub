@@ -1,0 +1,49 @@
+<view class="main">
+    <view class="banner">
+        <image src="/image/list.jpg" mode="aspectFill"></image>
+    </view>
+
+    <view class="list-box">
+        <view class="newest-list">
+			<navigator url="../details/details">
+             <view class="imgWrap">
+			 <view class="bg1"></view>
+			 <view class="bg2"></view>
+			 <view class="imgDiv"><image src="/image/s6.jpg"></image></view>
+			</view>
+			<view class="imginfo">婚纱摄影</view>
+			</navigator>
+        </view>
+        <view class="newest-list">
+            <navigator url="../details1/details">
+             <view class="imgWrap">
+			 <view class="bg1"></view>
+			 <view class="bg2"></view>
+			 <view class="imgDiv"><image src="/image/s7.jpg"></image></view>
+			</view>
+			<view class="imginfo">亲子写真</view>
+			</navigator>
+        </view>
+        <view class="newest-list">
+            <navigator url="../details2/details">
+                <view class="imgWrap">
+				 <view class="bg1"></view>
+				 <view class="bg2"></view>
+				 <view class="imgDiv"><image src="/image/s8.jpg"></image></view>
+				</view>
+			<view class="imginfo">个人写真</view>
+            </navigator>
+        </view>
+		 <view class="newest-list">
+			<navigator url="../details3/details">
+             <view class="imgWrap">
+			 <view class="bg1"></view>
+			 <view class="bg2"></view>
+			 <view class="imgDiv"><image src="/image/s9.jpg"></image></view>
+			</view>
+			<view class="imginfo">全家福照</view>
+			</navigator>
+        </view>
+    </view>
+	
+</view>
